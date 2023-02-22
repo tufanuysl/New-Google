@@ -1,0 +1,85 @@
+/*Layout*/
+body{
+    position: relative;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    background-color: #ffffff;
+    padding: 5px;
+}
+.button {
+    text-align: -webkit-center;
+    padding-top: 2px;
+}
+
+.grid-container > article {
+    padding-left: 0 0 0 0;
+    float: left;
+}
+
+.box1 {
+    background-color: #7EE5DA;
+    padding: 2px;
+    margin: 20 20 20 20;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box2 {
+    background-color: #70CCC2;
+    padding: 20px;
+    margin: 20 10 50 0 ;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.box3 {
+    background-color: #62B3AA;
+    padding: 5px;
+    margin: 20 10 100 5;
+    float: left;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header {
+    aspect-ratio: auto;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 351px;
+    height: 113px;
+    position: relative;
+}
+
+.srcarea {
+    background-color: #EEEEEE;
+    padding-top: 1px;
+    margin-top: -1px;
+    border-radius: 5px;
+}
+
+.srcarea p {
+    position: relative;
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 1px;
+}
+
+.srcbtn {
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    
+}
+
+footer {
+    text-align: center;
+}
